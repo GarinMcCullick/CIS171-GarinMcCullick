@@ -1,6 +1,6 @@
-# Practice Submission
+# SETUP EXAMPLE
 
-just a description
+One Paragraph of project description goes here
 
 ## Example Output
 

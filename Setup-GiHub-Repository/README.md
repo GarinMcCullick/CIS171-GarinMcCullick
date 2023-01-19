@@ -6,7 +6,7 @@ One Paragraph of project description goes here
 
 This image will display as your example output. Name the image README.jpg in your project folder.
 
-![Sample Output](README.jpg)
+![Sample Output](README.jpeg)
 
 ## Analysis Steps
 

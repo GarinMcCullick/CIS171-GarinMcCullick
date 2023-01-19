@@ -4,9 +4,9 @@ One Paragraph of project description goes here
 
 ## Example Output
 
-This image will display as your example output. Name the image README.jpg in your project folder.
+This image will display as your example output. Name the image README.png in your project folder.
 
-![Sample Output](README.jpeg)
+![Sample Output](README.jpg)
 
 ## Analysis Steps
 

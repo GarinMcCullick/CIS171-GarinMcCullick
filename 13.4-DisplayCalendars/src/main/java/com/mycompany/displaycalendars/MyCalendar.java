@@ -19,7 +19,7 @@ public class MyCalendar {
         System.out.println("please enter year ex:1990");
         int yearInput = scn.nextInt();
         System.out.println("please enter month");
-        int monthInput = scn.nextInt()-1;//-1 for the month january = 0 but is first month
+        int monthInput = scn.nextInt()-1;//-1 for the month january which = 0 in array but people will type 1 for january
         
         
         System.out.println(monthInput + 1 + "," + yearInput);
@@ -28,24 +28,29 @@ public class MyCalendar {
         GregorianCalendar gregCal = new GregorianCalendar(yearInput,monthInput,1);//getting the month and year input from  and setting day of month to first day.
         int days = gregCal.getActualMaximum(Calendar.DATE);//getting max # of days in the month
         //System.out.println("DAY"+days)
-        int week = gregCal.get(Calendar.DAY_OF_WEEK);//the day # in the week 3rd day of the week etc... this marks which day to start the month on the first week
-        System.out.println("Day " + week + " in week");
+        
+        int week = gregCal.get(Calendar.DAY_OF_WEEK);//the day # in the week 3rd day of the week would be 3 etc... this marks which day to start the month on the first week
+        System.out.println("Day " + week + " in the week");
         
         int totalWeeks = gregCal.getActualMaximum(Calendar.WEEK_OF_MONTH);//get actual maximum gets max amount of days in month but can also be used to get max weeks. on your calendar there are a max of 6 lines so if the month starts on the last day of the week and ends on the first day of the week there is enough room.
         System.out.println("# of weeks in month " + totalWeeks);//total weeks works off set month from month input which can be changed for testing
         
         //now need to loop through max days list them and create new line after every 7 or max week
         int dayCount = 1;//counting the days 1 by 1 in for loop
-        
+       String [] months = {"Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"};
+       System.out.println(months[monthInput] + " " + yearInput);
+       System.out.println(" SU MO TU WE TH FR SA");
         for (int i = 1; i <= totalWeeks; i++){//display total # of weeks in the month min4- max6
             
-            System.out.println();//next line
+            System.out.println();//breaks to next line in loop
             for(int x = 1; x <= 7; x++){//each week inside total weeks
-                String date = Integer.toString(dayCount-week+1);
-               
-            if((dayCount - week + 1)>days){
                 
-                System.out.print(" ");
+               String date = Integer.toString(dayCount - week + 1);//taking date and setting to 
+               
+            if((dayCount - week + 1)>days || dayCount < week){
+                 System.out.print(" __");
+                
+                
             }else{
                 //taking integers and converting to string for formatting
                 if(date.length()==1){//if date only has 1 number in it place a zero before otherwise leave as is
@@ -60,6 +65,7 @@ public class MyCalendar {
            }
         }
         System.out.println();//new line
-        System.out.println(monthInput + 1 + " " + yearInput + " contains " + days + " days!");
+        System.out.println(months[monthInput] + " " + yearInput + " contains " + days + " days!");
+        
     }}
 

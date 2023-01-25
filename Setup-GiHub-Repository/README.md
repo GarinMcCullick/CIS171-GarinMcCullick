@@ -1,47 +1,27 @@
 # SETUP EXAMPLE
 
-One Paragraph of project description goes here
+This Project is a working Calendar that takes the month and year as input. This app is programmed in java and uses the calender and gregorian calendar util imports.
 
 ## Example Output
 
-This image will display as your example output. Name the image README.png in your project folder.
 
 ![Sample Output](README.jpg)
 
 ## Analysis Steps
 
-This section should restate the assignment and explain how you analyzed the requirements in order 
-to develop a solution.
+When making this calendar I thought about the layout and how it should function. I decided that putting the month and year in were the only necessary requirements for functionality on the user side as I could have added a specific date input however I chose not to.
 
 ### Design
 
 How did you approach your program design? Did you use multiple classes to define various objects?
+I desigined this app with the scanner util for user input and used only 1 class as I mainly made use of loops and not much of the information needs to change after the initial month and year input.
 
-```
-Give examples
-```
+### Testing / Notes
 
-### Testing
+I fist started by making sure every month 1 being jan through 12 being dec displayed the way I wanted. I then made sure that the years did not affect my output display.
 
-A step by step series of examples that you developed to properly test the program. 
+The hardest part was getting the spacing right between the days of the week and the first of the month. This took some trial and error but I eventually got it.
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Notes
-
-Explain any issues or testing instructions.
 
 ## Do not change content below this line
 ## Adapted from a README Built With

@@ -5,7 +5,7 @@ This Project is a working Calendar that takes the month and year as input. This 
 ## Example Output
 
 
-![Sample Output](README.jpeg)
+![Sample Output](README.jpg)
 
 ## Analysis Steps
 

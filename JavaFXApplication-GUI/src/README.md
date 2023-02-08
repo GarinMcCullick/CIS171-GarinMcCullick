@@ -1,7 +1,6 @@
 This Project is an app that uses the javafx library to create gui's and displays.
 
-## Example Output
-
+## Output
 
 ![Sample Output](README.jpeg)
 

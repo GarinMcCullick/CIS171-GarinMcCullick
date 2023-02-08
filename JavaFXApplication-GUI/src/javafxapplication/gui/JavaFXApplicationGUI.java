@@ -18,7 +18,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author AceFly'N
+ * @author Garin McCullick
  */
 public class JavaFXApplicationGUI extends Application {
     

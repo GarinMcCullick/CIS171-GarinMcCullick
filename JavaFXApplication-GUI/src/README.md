@@ -1,11 +1,9 @@
-# SETUP EXAMPLE
-
 This Project is an app that uses the javafx library to create gui's and displays.
 
 ## Example Output
 
 
-![Sample Output](README.jpg)
+![Sample Output](README.jpeg)
 
 ## Analysis Steps
 

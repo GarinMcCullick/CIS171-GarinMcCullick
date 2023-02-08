@@ -2,7 +2,7 @@ This Project is an app that uses the javafx library to create gui's and displays
 
 ## Output
 
-![Sample Output](README.jpeg)
+![Sample Output](README.JPG)
 
 ## Analysis Steps
 

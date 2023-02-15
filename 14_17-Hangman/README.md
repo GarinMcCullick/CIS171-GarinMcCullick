@@ -1,24 +1,21 @@
-# SETUP EXAMPLE
+This Project is an app that uses the javafx library to create a hangman display.
 
-This Project is an app that finds the largest object in an array of objects using the Comparable interface.
-
-## Example Output
-
+## Output
 
 ![Sample Output](README.JPG)
 
 ## Analysis Steps
 
-When making this Object area sorter, I thought about the setup and how it should function. I decided that making two public classes was the direction I wanted to take as I could then instantiate the template like circle class into the GeometricObject class with the Comparable interface to filter out the largest object out of the array of objects.
+When making this display, I thought about the setup and how it should be organized. I decided that 3 observablelists for 3 polylines would be the best way to aproach the drawing.
 
 ### Design
 
 How did you approach your program design? Did you use multiple classes to define various objects?
-I desigined this app around two classes. A Circle class and a GeometricObject class. New objects or circles in this case are entered into the circle class as parameters from the array of objects in the GeometericObject class. From there each array object or circle is run throught the comparable interface in the circles class and then is displayed in the GeometricObject class.
+I desigined this app with the idea of 3 sections with the hang pole tripling as the pole, rope, and torso of the stick person. I used only 1 public class.
 
 ### Testing / Notes
 
-To test this app you have to change the area parameter inside Circles array inside the GeometricObject class. Changing this around is a clear and easy way to see that the app only displays the circle with the highest area among all the objects in the array.
+Testing this I played around with the list array points (x1,y1)... to change the lengths and overall flow of the polylines to create the hangman drawing.
 
 ## Do not change content below this line
 ## Adapted from a README Built With

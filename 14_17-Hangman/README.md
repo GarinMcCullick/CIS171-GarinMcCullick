@@ -5,7 +5,7 @@ This Project is an app that finds the largest object in an array of objects usin
 ## Example Output
 
 
-![Sample Output](README.jpg)
+![Sample Output](README.JPG)
 
 ## Analysis Steps
 

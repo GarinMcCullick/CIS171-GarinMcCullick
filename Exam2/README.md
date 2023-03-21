@@ -1,4 +1,4 @@
-This Project is an app that uses the javafx library to create a currency converter from USD to Canadian with the exchange rate set at 1.37 or 1 usd equal to 1.37 canadian
+This Project is an app that uses the javafx library to create a currency converter from USD to Canadian with the exchange rate set at 1.37 or 1 usd equal to 0.73 canadian
 
 ## Output
 

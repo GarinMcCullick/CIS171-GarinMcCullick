@@ -6,14 +6,14 @@ This Project is an app that uses the java maven library to create a sorted array
 
 ## Analysis Steps
 
-When making this I created an array that has a max size of 1,000,000 and each spot in that array is a randomly generated number that I then sorted using Radix.
+When making this I created an Linked List that you can append values to search for values and delete values inside of the list.
 ### Design
 
-This project allowed me to play with arrays and random numbers as well as the Random class and buckets with Radix Sort.
+This project allowed me to learn about nodes and linked lists inside java as well as learn how to create functionality when working with lists in java such as appending, deleting, and searching lists.
 
 ### Testing / Notes
 
-To test this application I changed the max array values as well as the sorting values on the array.
+To test this application I changed printed out the linked list and tested adding values, deleting values, and searching for values inside the list. I made sure that when searching for a value you must search for a number as this is a linked list of integers. I also made sure to use try and catch statements for error handling and error messages such as searching for or deleting values that are not in the list.
 
 ## Do not change content below this line
 ## Adapted from a README Built With

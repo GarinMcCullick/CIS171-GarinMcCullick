@@ -1,4 +1,4 @@
-This Project is an app that uses the java maven library to create a sorted array using Radix sort.
+This Project is an app that uses the javaFX library to create a Linked List with search, append, and delete functionality. This was a really great project that allowed me to work with LinkedLists in a functional way I really enjoyed learning about nodes and how they work with LinkedLists.
 
 ## Output
 
